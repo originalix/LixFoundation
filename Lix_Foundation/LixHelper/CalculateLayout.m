@@ -7,6 +7,7 @@
 //
 
 #import "CalculateLayout.h"
+#import "LixMacro.h"
 
 #define iPhone4Height (480.f)
 #define iPhone4Width  (320.f)
