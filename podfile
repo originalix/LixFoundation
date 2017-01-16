@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+use_frameworks!
+
+target 'LixFoundation' do
+pod 'LixMacro', '~> 0.0.3'
+end

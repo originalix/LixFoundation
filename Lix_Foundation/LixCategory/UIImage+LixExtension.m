@@ -7,7 +7,6 @@
 //
 
 #import "UIImage+LixExtension.h"
-#import "LixMacro.h"
 
 @implementation UIImage (LixExtension)
 
