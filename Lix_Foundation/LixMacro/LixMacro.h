@@ -256,11 +256,6 @@
 #define LogInfo(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg65,105,225;" frmt  XCODE_COLORS_RESET), ##__VA_ARGS__)
 #define LogWarn(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg255,128,0;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
 
-#ifdef __OPTIMIZE__
-# define LogBlue(__FORMAT__, ...) {}
-#else
-# define LogBlue(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg0,0,255;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
-#endif
 
 
 

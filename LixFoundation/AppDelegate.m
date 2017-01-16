@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LixFoundation.h"
 @interface AppDelegate ()
 
 @end

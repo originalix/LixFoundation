@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "LixMacro.h"
 
 typedef NS_ENUM(NSInteger, IPhoneType) {
     iPhone4Type = 0,
