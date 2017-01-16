@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  LixFoundation
+//
+//  Created by Lix on 17/1/16.
+//  Copyright © 2017年 Lix. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "LixFoundation.h"
+
+#endif /* PrefixHeader_pch */
+//$(SRCROOT)/PrefixHeader.pch

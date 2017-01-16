@@ -15,6 +15,15 @@
 		56EB5A971E2C78B500C75776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EB5A951E2C78B500C75776 /* LaunchScreen.storyboard */; };
 		56EB5AA21E2C78B500C75776 /* LixFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5AA11E2C78B500C75776 /* LixFoundationTests.m */; };
 		56EB5AAD1E2C78B500C75776 /* LixFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5AAC1E2C78B500C75776 /* LixFoundationUITests.m */; };
+		56EB5AD21E2C78C100C75776 /* NSString+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5ABD1E2C78C100C75776 /* NSString+LixExtension.m */; };
+		56EB5AD31E2C78C100C75776 /* UIBarButtonItem+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5ABF1E2C78C100C75776 /* UIBarButtonItem+LixExtension.m */; };
+		56EB5AD41E2C78C100C75776 /* UIDevice+LixKeychainIDFV.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5AC11E2C78C100C75776 /* UIDevice+LixKeychainIDFV.m */; };
+		56EB5AD51E2C78C100C75776 /* UIImage+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5AC31E2C78C100C75776 /* UIImage+LixExtension.m */; };
+		56EB5AD61E2C78C100C75776 /* UINavigationBar+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5AC51E2C78C100C75776 /* UINavigationBar+LixExtension.m */; };
+		56EB5AD71E2C78C100C75776 /* UIView+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5AC71E2C78C100C75776 /* UIView+LixExtension.m */; };
+		56EB5AD81E2C78C100C75776 /* CalculateLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5ACB1E2C78C100C75776 /* CalculateLayout.m */; };
+		56EB5AD91E2C78C100C75776 /* LixAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5ACD1E2C78C100C75776 /* LixAlertUtil.m */; };
+		56EB5ADA1E2C78C100C75776 /* LixUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5ACF1E2C78C100C75776 /* LixUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,27 @@
 		56EB5AA81E2C78B500C75776 /* LixFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EB5AAC1E2C78B500C75776 /* LixFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LixFoundationUITests.m; sourceTree = "<group>"; };
 		56EB5AAE1E2C78B500C75776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EB5ABC1E2C78C100C75776 /* NSString+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LixExtension.h"; sourceTree = "<group>"; };
+		56EB5ABD1E2C78C100C75776 /* NSString+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LixExtension.m"; sourceTree = "<group>"; };
+		56EB5ABE1E2C78C100C75776 /* UIBarButtonItem+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LixExtension.h"; sourceTree = "<group>"; };
+		56EB5ABF1E2C78C100C75776 /* UIBarButtonItem+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LixExtension.m"; sourceTree = "<group>"; };
+		56EB5AC01E2C78C100C75776 /* UIDevice+LixKeychainIDFV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LixKeychainIDFV.h"; sourceTree = "<group>"; };
+		56EB5AC11E2C78C100C75776 /* UIDevice+LixKeychainIDFV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LixKeychainIDFV.m"; sourceTree = "<group>"; };
+		56EB5AC21E2C78C100C75776 /* UIImage+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LixExtension.h"; sourceTree = "<group>"; };
+		56EB5AC31E2C78C100C75776 /* UIImage+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LixExtension.m"; sourceTree = "<group>"; };
+		56EB5AC41E2C78C100C75776 /* UINavigationBar+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+LixExtension.h"; sourceTree = "<group>"; };
+		56EB5AC51E2C78C100C75776 /* UINavigationBar+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+LixExtension.m"; sourceTree = "<group>"; };
+		56EB5AC61E2C78C100C75776 /* UIView+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LixExtension.h"; sourceTree = "<group>"; };
+		56EB5AC71E2C78C100C75776 /* UIView+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LixExtension.m"; sourceTree = "<group>"; };
+		56EB5AC81E2C78C100C75776 /* LixFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixFoundation.h; sourceTree = "<group>"; };
+		56EB5ACA1E2C78C100C75776 /* CalculateLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateLayout.h; sourceTree = "<group>"; };
+		56EB5ACB1E2C78C100C75776 /* CalculateLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateLayout.m; sourceTree = "<group>"; };
+		56EB5ACC1E2C78C100C75776 /* LixAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAlertUtil.h; sourceTree = "<group>"; };
+		56EB5ACD1E2C78C100C75776 /* LixAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixAlertUtil.m; sourceTree = "<group>"; };
+		56EB5ACE1E2C78C100C75776 /* LixUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixUtils.h; sourceTree = "<group>"; };
+		56EB5ACF1E2C78C100C75776 /* LixUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixUtils.m; sourceTree = "<group>"; };
+		56EB5AD11E2C78C100C75776 /* LixMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixMacro.h; sourceTree = "<group>"; };
+		56EB5ADB1E2C790400C75776 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,8 @@
 		56EB5A7B1E2C78B500C75776 = {
 			isa = PBXGroup;
 			children = (
+				56EB5ADB1E2C790400C75776 /* PrefixHeader.pch */,
+				56EB5ABA1E2C78C100C75776 /* Lix_Foundation */,
 				56EB5A861E2C78B500C75776 /* LixFoundation */,
 				56EB5AA01E2C78B500C75776 /* LixFoundationTests */,
 				56EB5AAB1E2C78B500C75776 /* LixFoundationUITests */,
@@ -138,6 +170,57 @@
 				56EB5AAE1E2C78B500C75776 /* Info.plist */,
 			);
 			path = LixFoundationUITests;
+			sourceTree = "<group>";
+		};
+		56EB5ABA1E2C78C100C75776 /* Lix_Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				56EB5ABB1E2C78C100C75776 /* LixCategory */,
+				56EB5AC81E2C78C100C75776 /* LixFoundation.h */,
+				56EB5AC91E2C78C100C75776 /* LixHelper */,
+				56EB5AD01E2C78C100C75776 /* LixMacro */,
+			);
+			path = Lix_Foundation;
+			sourceTree = "<group>";
+		};
+		56EB5ABB1E2C78C100C75776 /* LixCategory */ = {
+			isa = PBXGroup;
+			children = (
+				56EB5ABC1E2C78C100C75776 /* NSString+LixExtension.h */,
+				56EB5ABD1E2C78C100C75776 /* NSString+LixExtension.m */,
+				56EB5ABE1E2C78C100C75776 /* UIBarButtonItem+LixExtension.h */,
+				56EB5ABF1E2C78C100C75776 /* UIBarButtonItem+LixExtension.m */,
+				56EB5AC01E2C78C100C75776 /* UIDevice+LixKeychainIDFV.h */,
+				56EB5AC11E2C78C100C75776 /* UIDevice+LixKeychainIDFV.m */,
+				56EB5AC21E2C78C100C75776 /* UIImage+LixExtension.h */,
+				56EB5AC31E2C78C100C75776 /* UIImage+LixExtension.m */,
+				56EB5AC41E2C78C100C75776 /* UINavigationBar+LixExtension.h */,
+				56EB5AC51E2C78C100C75776 /* UINavigationBar+LixExtension.m */,
+				56EB5AC61E2C78C100C75776 /* UIView+LixExtension.h */,
+				56EB5AC71E2C78C100C75776 /* UIView+LixExtension.m */,
+			);
+			path = LixCategory;
+			sourceTree = "<group>";
+		};
+		56EB5AC91E2C78C100C75776 /* LixHelper */ = {
+			isa = PBXGroup;
+			children = (
+				56EB5ACA1E2C78C100C75776 /* CalculateLayout.h */,
+				56EB5ACB1E2C78C100C75776 /* CalculateLayout.m */,
+				56EB5ACC1E2C78C100C75776 /* LixAlertUtil.h */,
+				56EB5ACD1E2C78C100C75776 /* LixAlertUtil.m */,
+				56EB5ACE1E2C78C100C75776 /* LixUtils.h */,
+				56EB5ACF1E2C78C100C75776 /* LixUtils.m */,
+			);
+			path = LixHelper;
+			sourceTree = "<group>";
+		};
+		56EB5AD01E2C78C100C75776 /* LixMacro */ = {
+			isa = PBXGroup;
+			children = (
+				56EB5AD11E2C78C100C75776 /* LixMacro.h */,
+			);
+			path = LixMacro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +357,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				56EB5A8F1E2C78B500C75776 /* ViewController.m in Sources */,
+				56EB5AD61E2C78C100C75776 /* UINavigationBar+LixExtension.m in Sources */,
+				56EB5AD31E2C78C100C75776 /* UIBarButtonItem+LixExtension.m in Sources */,
+				56EB5ADA1E2C78C100C75776 /* LixUtils.m in Sources */,
+				56EB5AD71E2C78C100C75776 /* UIView+LixExtension.m in Sources */,
+				56EB5AD91E2C78C100C75776 /* LixAlertUtil.m in Sources */,
+				56EB5AD81E2C78C100C75776 /* CalculateLayout.m in Sources */,
+				56EB5AD51E2C78C100C75776 /* UIImage+LixExtension.m in Sources */,
 				56EB5A8C1E2C78B500C75776 /* AppDelegate.m in Sources */,
 				56EB5A891E2C78B500C75776 /* main.m in Sources */,
+				56EB5AD41E2C78C100C75776 /* UIDevice+LixKeychainIDFV.m in Sources */,
+				56EB5AD21E2C78C100C75776 /* NSString+LixExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +516,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = LixFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lix.LixFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +530,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = LixFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lix.LixFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
