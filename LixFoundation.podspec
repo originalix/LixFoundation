@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LixFoundation"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Objective-C编程基础工具类"
 
   s.homepage     = "https://github.com/originalix/LixFoundation"
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Lix_Foundation", "Lix_Foundation/**/*.{h,m}"
   s.frameworks = "Foundation", "UIKit"
-  s.dependency 'LixMacro', '~> 0.0.3'
+  # s.dependency 'LixMacro', '~> 0.0.3'
 
 end
