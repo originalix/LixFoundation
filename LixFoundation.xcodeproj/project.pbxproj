@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56CFB8D61E4C5123009E2FC4 /* UITableView+LixExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFB8D51E4C5123009E2FC4 /* UITableView+LixExtension.m */; };
+		56CFB8D91E4C5188009E2FC4 /* UIImageView+LixCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFB8D81E4C5188009E2FC4 /* UIImageView+LixCornerRadius.m */; };
 		56EB5A891E2C78B500C75776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5A881E2C78B500C75776 /* main.m */; };
 		56EB5A8C1E2C78B500C75776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5A8B1E2C78B500C75776 /* AppDelegate.m */; };
 		56EB5A8F1E2C78B500C75776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB5A8E1E2C78B500C75776 /* ViewController.m */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56CFB8D41E4C5123009E2FC4 /* UITableView+LixExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LixExtension.h"; sourceTree = "<group>"; };
+		56CFB8D51E4C5123009E2FC4 /* UITableView+LixExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LixExtension.m"; sourceTree = "<group>"; };
+		56CFB8D71E4C5188009E2FC4 /* UIImageView+LixCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LixCornerRadius.h"; sourceTree = "<group>"; };
+		56CFB8D81E4C5188009E2FC4 /* UIImageView+LixCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LixCornerRadius.m"; sourceTree = "<group>"; };
 		56EB5A841E2C78B500C75776 /* LixFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LixFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EB5A881E2C78B500C75776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56EB5A8A1E2C78B500C75776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -211,6 +217,10 @@
 				56EB5AC51E2C78C100C75776 /* UINavigationBar+LixExtension.m */,
 				56EB5AC61E2C78C100C75776 /* UIView+LixExtension.h */,
 				56EB5AC71E2C78C100C75776 /* UIView+LixExtension.m */,
+				56CFB8D41E4C5123009E2FC4 /* UITableView+LixExtension.h */,
+				56CFB8D51E4C5123009E2FC4 /* UITableView+LixExtension.m */,
+				56CFB8D71E4C5188009E2FC4 /* UIImageView+LixCornerRadius.h */,
+				56CFB8D81E4C5188009E2FC4 /* UIImageView+LixCornerRadius.m */,
 			);
 			path = LixCategory;
 			sourceTree = "<group>";
@@ -424,6 +434,7 @@
 				56EB5A8F1E2C78B500C75776 /* ViewController.m in Sources */,
 				56EB5AD61E2C78C100C75776 /* UINavigationBar+LixExtension.m in Sources */,
 				56EB5AD31E2C78C100C75776 /* UIBarButtonItem+LixExtension.m in Sources */,
+				56CFB8D91E4C5188009E2FC4 /* UIImageView+LixCornerRadius.m in Sources */,
 				56EB5ADA1E2C78C100C75776 /* LixUtils.m in Sources */,
 				56EB5AD71E2C78C100C75776 /* UIView+LixExtension.m in Sources */,
 				56EB5AD91E2C78C100C75776 /* LixAlertUtil.m in Sources */,
@@ -432,6 +443,7 @@
 				56EB5A8C1E2C78B500C75776 /* AppDelegate.m in Sources */,
 				56EB5A891E2C78B500C75776 /* main.m in Sources */,
 				56EB5AD41E2C78C100C75776 /* UIDevice+LixKeychainIDFV.m in Sources */,
+				56CFB8D61E4C5123009E2FC4 /* UITableView+LixExtension.m in Sources */,
 				56EB5AD21E2C78C100C75776 /* NSString+LixExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

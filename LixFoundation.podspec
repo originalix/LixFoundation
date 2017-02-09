@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LixFoundation"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Objective-C编程基础工具类"
 
   s.homepage     = "https://github.com/originalix/LixFoundation"

@@ -18,6 +18,8 @@
 #import "UIImage+LixExtension.h"
 #import "UINavigationBar+LixExtension.h"
 #import "UIView+LixExtension.h"
+#import "UITableView+LixExtension.h"
+
 /* 常用工具类 */
 #import "CalculateLayout.h"
 #import "LixAlertUtil.h"
